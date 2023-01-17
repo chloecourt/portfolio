@@ -1,91 +1,31 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import Image from "next/image";
+import { Inter } from "@next/font/google";
+import { GradientButton } from "@/components/GradientButton";
+import selfie from "../public/images/selfie.jpeg";
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
+    <main className="min-h-screen flex flex-row justify-center items-center">
+      <div className="p-8 w-2/5">
+        <h3 className="text-sm">Software Engineer</h3>
+        <h1 className="bold text-xl">Chloe Courtois</h1>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu
+          velit ultricies, tincidunt metus sit amet, sollicitudin dolor. Vivamus
+          dignissim nunc a aliquet facilisis. Vivamus ac orci eu dui vestibulum
+          sodales eget elementum risus. Vestibulum neque tellus, consequat ac
+          ante id, tempus congue velit. Quisque sodales, tellus id euismod
+          euismod, augue ligula euismod mauris, vitae gravida ipsum ligula id
+          erat. Quisque at urna et purus fermentum dapibus eu sit amet elit.
+          Duis nulla turpis, laoreet sed cursus quis, varius id tortor. Fusce
+          ante dolor, interdum sit amet facilisis in, laoreet vel ipsum. Donec
+          semper tempus erat, sit amet posuere arcu tincidunt convallis. Vivamus
+          dui velit, faucibus vitae eros sodales, malesuada placerat ipsum.
         </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+        <GradientButton />
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <Image src={selfie} alt="Chloe Courtois" width="300" />
     </main>
-  )
+  );
 }
