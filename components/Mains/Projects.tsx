@@ -1,19 +1,15 @@
-import { WindowMockUp } from "../WindowMockUp";
+import { ProjectsContainer } from "../ProjectsContainer";
 
 export const Projects = () => {
   return (
-    <main className="h-screen flex flex-col" id="Projects">
-      <h1 className="mt-5 pl-20 text-lg font-bold">Projects</h1>
-      <section className="h-screen flex flex-col justify-center items-center">
-        <article className="flex flex-col justify-center items-center">
-          <h2>Bad Habits: Ecommerce and Events Company Website</h2>
-          <WindowMockUp />
-          <h4>Tech Stack</h4>
-          <p>
-            Next.js 13, Strapi CMS, Tailwind CSS, Next-Auth, Shopify StoreFront
-            API, Core Web Vitals / SEO Best Practices
-          </p>
-        </article>
+    <main
+      className="mt-12 min-h-screen flex flex-col justify-center items-center px-12"
+      id="Projects"
+    >
+      <h1 className="text-lg font-bold">Projects</h1>
+      <section className="min-h-full flex flex-col justify-center items-center md:flex-row">
+        <ProjectsContainer />
+        <ProjectsContainer />
       </section>
     </main>
   );
