@@ -6,7 +6,7 @@ export const GradientButton = () => {
         href="/download"
       >
         <span className="block rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent">
-          Download
+          RESUME
         </span>
       </a>
     </div>
