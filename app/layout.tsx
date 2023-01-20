@@ -7,13 +7,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-rose-50 scroll-smooth">
+    <html
+      lang="en"
+      className="scroll-smooth bg-[#e7dfd5] hover:bg-yellow-200 transition-colors duration-500 delay-1000"
+    >
       {/*
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="min-h-screen">
+      <body
+        className="min-h-screen"
+        // className="min-h-screen hover:bg-blue-300 transition-colors duration-500 delay-1000"
+      >
+        {/* className="min-h-screen hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 transition-colors duration-700 delay-1000"
+      > */}
         <Navbar />
         {children}
       </body>
