@@ -1,5 +1,6 @@
 const { fontFamily } = require("tailwindcss/defaultTheme");
 const { colors } = require("tailwindcss/colors");
+// Londrina Outline
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {

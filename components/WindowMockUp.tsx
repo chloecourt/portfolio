@@ -11,7 +11,7 @@ export const WindowMockUp = () => {
       {/* <div className="bg-gray-100 dark:bg-gray-700 border-t-0 w-full h-96 rounded-b-lg"> */}
       <iframe
         className="border-t-0 w-full h-96 rounded-b-lg"
-        src="http://boost-excel.s3-website-us-east-1.amazonaws.com/"
+        src="https://boost-splash-page-5im6-movkazaht-chloecourt.vercel.app/"
         width="650"
       />
       {/* </div> */}

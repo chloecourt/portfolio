@@ -20,14 +20,14 @@ export default function Home() {
       <Image
         src={blade}
         alt="blade-art"
-        className="absolute top-0 -right-28"
+        className="absolute top-0 -right-28 hidden md:block"
         width="550"
       />
       <main className="min-h-screen flex flex-col justify-center items-center hover:bg-yellow-200 transition-colors duration-500 delay-1000">
         <section
           id="About"
           data-testid="name-and-description-block"
-          className="bg-transparent min-h-full flex flex-col justify-between items-center sm:flex-row"
+          className="bg-transparent min-h-full flex flex-col justify-around items-center sm:flex-row"
         >
           <div
             data-testid="left-landing-page-container"
@@ -47,7 +47,7 @@ export default function Home() {
           </div>
           <Image
             src={selfie}
-            className="z-10 animate-waving-hand rounded-full mt-10 sm:mt-0"
+            className="z-10 rounded-full mt-10 sm:mt-0"
             // className="animate-rolling-img"
             alt="Chloe Courtois"
             width="300"
@@ -56,12 +56,12 @@ export default function Home() {
       </main>
       <Image
         src={mango}
-        className="absolute -bottom-16 -left-16"
+        className="absolute -bottom-16 -left-16 hidden md:block"
         alt="mango art"
       />
       <Image
         src={leaves}
-        className="absolute -bottom-1 right-1"
+        className="absolute animate-waving-hand -bottom-1 right-1"
         alt="leaves art"
       />
       <Projects />
