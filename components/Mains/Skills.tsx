@@ -3,7 +3,12 @@ import { WindowMockUp } from "../WindowMockUp";
 export const Skills = () => {
   return (
     <main className="h-screen flex flex-col" id="Skills">
-      <h1 className="mt-5 pl-20 text-lg font-bold">Skills</h1>
+      <h1
+        className="text-8xl font-abc"
+        // className="mt-5 pl-20"
+      >
+        Skills
+      </h1>
       <section className="h-screen flex flex-col justify-center items-center">
         <article className="flex flex-col justify-center items-center">
           <h2>Bad Habits: Ecommerce and Events Company Website</h2>

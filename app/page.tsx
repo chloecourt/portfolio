@@ -23,10 +23,10 @@ export default function Home() {
       <Image
         src={papaya}
         // className="z-10 absolute -top-32 -left-38"
-        className="z-10 absolute left-0 top-0"
+        className="z-10 absolute left-0 top-0 hidden middle:block"
         alt="papaya-art"
       />
-      <div className="z-10 absolute top-44 left-1/3">
+      <div className="z-10 absolute top-44 left-1/3 hidden middle:block">
         <div className="relative h-full w-full">
           <Image
             src={papayaSeedHigher}
@@ -48,57 +48,57 @@ export default function Home() {
         src={blade1}
         alt="blade-art"
         // className="z-10 absolute top-0 -right-28 hidden md:block"
-        className="z-10 absolute top-0 right-0 hidden md:block"
+        className="z-10 absolute top-0 right-0 hidden middle:block"
         width="550"
       />
       <main
-        className="relative min-h-screen flex flex-col justify-center items-center hover:bg-yellow-200 transition-colors duration-500 delay-1000"
+        className="relative h-[90vh] flex flex-col justify-center items-center hover:bg-yellow-200 transition-colors duration-500 delay-1000"
         //flex flex-col justify-center items-center
       >
         <section
           id="About"
           data-testid="name-and-description-block"
-          className="bg-transparent w-3/4 m-auto flex flex-col justify-evenly items-center md:flex-row md:mt-72"
+          className="relative bg-transparent w-3/4 m-auto flex flex-col justify-evenly items-center middle:flex-row"
         >
           <div
             data-testid="left-landing-page-container"
-            className="z-10 p-3 bg-white rounded-md shadow-md w-96 flex flex-col justify-evenly items-center sm:min-w-96 sm:justify-evenly sm:mr-16"
+            className="z-10 p-3 bg-white rounded-md shadow-md w-96 flex flex-col justify-evenly items-center middle:min-w-96 middle:justify-evenly middle:mr-16"
           >
             <h3 className="text-lg mt-5">Software Engineer</h3>
-            <h1
-              className={`font-abc bold text-6xl my-2 hover:-translate-y-1 ease-in duration-300`}
-            >
+            <h1 className="px-3 font-abc bold text-6xl my-2 hover:-translate-y-1 ease-in duration-200">
               Chloe Courtois
             </h1>
-            <p className="px-5 pb-5 items-center">
-              Hello! I am glad you took and interest to visit my site! I built
-              it with Next.js 13 and Tailwind CSS. I love learning and
-              leveraging the newest technology in our field to find more
-              efficient ways to provide cutting edge products to clients.
+            <p className="px-5 pb-5 items-center hidden sm:block">
+              Hello! Thank you for visiting my site, I built it with Next.js 13
+              and Tailwind CSS. I love learning the newest technology and
+              providing cutting edge products to clients.
             </p>
             <GradientButton />
           </div>
           <Image
             src={selfie}
-            className="z-10 animate-roll-in rounded-full mt-10 sm:mt-0"
+            className="z-10 animate-roll-in rounded-full mt-10 middle:mt-0"
             alt="Chloe Courtois"
             width="300"
           />
         </section>
-        <div className="relative w-full">
+        <div className="block relative w-full">
           <Image
             src={mango}
             // className="absolute -bottom-16 -left-16 hidden md:block"
             // className="absolute bottom-20 left-0 hidden md:block"
-            className="absolute animate-papaya-entry bottom-10 -left-10 hidden md:block"
+            // className="absolute animate-papaya-entry bottom-10 -left-10 hidden middle:block"
+            className="absolute animate-papaya-entry -bottom-12 -left-12 hidden middle:block"
             alt="mango art"
           />
+
           <Image
             src={leaves}
             // className="absolute animate-waving-hand -bottom-12 -right-5"
             // className="absolute animate-waving-hand bottom-20 right-10"
-            className="absolute bottom-20 right-0 animate-waving-hand"
+            className="w-[380px] absolute bottom-0 right-0 animate-waving-hand hidden middle:block"
             alt="leaves art"
+            sizes=""
           />
         </div>
       </main>

@@ -11,7 +11,7 @@ export const Navbar = () => {
         <span></span>
         <ul className="flex items-center gap-2 text-base font-medium text-gray-600">
           <li className="rounded-lg px-3 py-2">
-            <a className="rounded-lg px-3 py-2 hidden md:block" href="/">
+            <a className="rounded-lg hidden md:block" href="/">
               Home
             </a>
           </li>

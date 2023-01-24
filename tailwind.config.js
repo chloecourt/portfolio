@@ -11,6 +11,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        middle: "1155px",
+      },
       fontFamily: {
         sans: ["var(--font-inter)", ...fontFamily.sans],
         abc: ["Londrina Outline", "cursive"],
