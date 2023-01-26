@@ -31,7 +31,7 @@ module.exports = {
         },
         roll: {
           "0%, 100%": { transform: "translateX(0) rotate(0deg)" },
-          "50%": { transform: "translateX(-5rem) rotate(-40deg)" },
+          "50%": { transform: "translateX(-3rem) rotate(-30deg)" },
         },
         seedBounce: {
           "0%, 20%, 50%, 80%, 100%": { transform: "translateY(0)" },
@@ -41,8 +41,9 @@ module.exports = {
       },
       animation: {
         "waving-hand": "wave 2s linear infinite",
-        "roll-in": "roll 2s ease-in-out",
+        "roll-in": "roll 3s ease-in-out",
         "secondSeed-bounce": "seedBounce 2s infinite",
+        "title-bounce": "seedBounce 2s ease-in-out",
       },
     },
   },

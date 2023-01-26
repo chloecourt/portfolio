@@ -2,7 +2,7 @@ import { WindowMockUp } from "../WindowMockUp";
 
 export const Skills = () => {
   return (
-    <main className="h-screen flex flex-col" id="Skills">
+    <main className="min-h-screen flex flex-col" id="Skills">
       <h1
         className="text-8xl font-abc"
         // className="mt-5 pl-20"
@@ -10,15 +10,13 @@ export const Skills = () => {
         Skills
       </h1>
       <section className="h-screen flex flex-col justify-center items-center">
-        <article className="flex flex-col justify-center items-center">
-          <h2>Bad Habits: Ecommerce and Events Company Website</h2>
-          <WindowMockUp />
-          <h4>Tech Stack</h4>
-          <p>
-            Next.js 13, Strapi CMS, Tailwind CSS, Next-Auth, Shopify StoreFront
-            API, Core Web Vitals / SEO Best Practices
-          </p>
-        </article>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
       </section>
     </main>
   );
