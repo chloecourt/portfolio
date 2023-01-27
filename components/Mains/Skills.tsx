@@ -1,23 +1,13 @@
-import { WindowMockUp } from "../WindowMockUp";
-
+import { MainLayout } from "./MainLayout";
 export const Skills = () => {
   return (
-    <main className="min-h-screen flex flex-col" id="Skills">
-      <h1
-        className="text-8xl font-abc"
-        // className="mt-5 pl-20"
-      >
-        Skills
-      </h1>
-      <section className="h-screen flex flex-col justify-center items-center">
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
+    <MainLayout title="Skills">
+      <section>
+        <h3>lots of tech stack icons</h3>
+        <div className="bg-gray-500 relative w-1/2 h-1/2">
+          <p>meow</p>
+        </div>
       </section>
-    </main>
+    </MainLayout>
   );
 };

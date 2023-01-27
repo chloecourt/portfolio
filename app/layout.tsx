@@ -19,12 +19,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body
-        className="min-h-screen relative overflow-x-hidden"
-        // className="min-h-screen hover:bg-blue-300 transition-colors duration-500 delay-1000"
-      >
-        {/* className="min-h-screen hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 transition-colors duration-700 delay-1000"
-      > */}
+      <body className="min-h-screen min-w-screen">
         <Navbar />
         {children}
       </body>

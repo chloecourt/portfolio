@@ -1,13 +1,13 @@
-<svg width="564" height="288" viewBox="0 0 564 288" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 575 324" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_25_59)">
-<path d="M296.91 275.841C144.504 227.601 2.46572 232.593 6.19982 100.03C9.93391 -32.5322 115.027 -8.81187 267.433 39.4279C419.839 87.6677 560.282 22.6771 556.548 155.24C235.428 184.317 449.316 324.081 296.91 275.841Z" fill="#EB901C"/>
-<path d="M266.466 264.289C160.682 230.806 61.9442 239.604 64.9383 133.314C67.9323 27.0237 140.905 42.4688 246.689 75.9516C352.472 109.434 450.282 52.6398 447.288 158.93C224.008 193.069 372.249 297.772 266.466 264.289Z" fill="#C69C66"/>
+<path d="M300.999 297.949C148.594 249.709 11.8554 256.67 15.5895 124.108C19.3236 -8.45504 119.117 13.2957 271.522 61.5355C423.928 109.775 564.372 44.7846 560.637 177.347C239.517 206.425 453.405 346.188 300.999 297.949Z" fill="#EB901C"/>
+<path d="M265.814 286.275C160.441 252.922 62.1026 261.128 65.043 156.744C67.9833 52.3604 140.67 67.8521 246.042 101.205C351.415 134.557 448.81 79.2057 445.87 183.589C223.498 216.136 371.186 319.627 265.814 286.275Z" fill="#C69C66"/>
 <g filter="url(#filter0_i_25_59)">
-<path d="M254.395 248.106C165.632 220.01 82.7816 227.393 85.2939 138.205C87.8062 49.0167 149.038 61.9767 237.8 90.072C326.563 118.167 408.635 70.5112 406.123 159.699C218.769 188.345 343.158 276.201 254.395 248.106Z" fill="#EFBBEA" fill-opacity="0.65"/>
+<path d="M275.847 275.574C187.084 247.478 104.233 254.861 106.746 165.673C109.258 76.4848 170.489 89.4448 259.252 117.54C348.015 145.635 430.087 97.9793 427.574 187.167C240.221 215.813 364.609 303.669 275.847 275.574Z" fill="#EFBBEA" fill-opacity="0.65"/>
 </g>
 </g>
 <defs>
-<filter id="filter0_i_25_59" x="85.2382" y="69.1281" width="320.941" height="188.447" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_i_25_59" x="106.69" y="96.5962" width="320.941" height="188.447" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
@@ -18,7 +18,7 @@
 <feBlend mode="normal" in2="shape" result="effect1_innerShadow_25_59"/>
 </filter>
 <clipPath id="clip0_25_59">
-<rect width="564" height="288" fill="white"/>
+<rect width="575" height="324" fill="white"/>
 </clipPath>
 </defs>
 </svg>

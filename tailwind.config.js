@@ -38,12 +38,38 @@ module.exports = {
           "40%": { transform: "translateY(-30px)" },
           "60%": { transform: "translateY(-15px)" },
         },
+        rotateInUp: {
+          "0%": {
+            opacity: "0",
+            transformOrigin: "bottom left",
+            transform: "rotate(90deg) ",
+          },
+          "100%": {
+            opacity: "1",
+            transformOrigin: "bottom left",
+            transform: "rotate(0deg)",
+          },
+        },
+        rotateInDown: {
+          "0%": {
+            opacity: "0",
+            transformOrigin: "bottom left",
+            transform: "rotate(-90deg) ",
+          },
+          "100%": {
+            opacity: "1",
+            transformOrigin: "bottom left",
+            transform: "rotate(0deg)",
+          },
+        },
       },
       animation: {
         "waving-hand": "wave 2s linear infinite",
-        "roll-in": "roll 3s ease-in-out",
+        "roll-in": "roll 3.5s ease-in-out",
         "secondSeed-bounce": "seedBounce 2s infinite",
         "title-bounce": "seedBounce 2s ease-in-out",
+        "mango-enter": "rotateInUp 1s ease-in",
+        "fruits-down": "rotateInDown 1s ease-in",
       },
     },
   },

@@ -1,10 +1,14 @@
+import Image from "next/image";
+import { MainLayout } from "./MainLayout";
+import linkedin4 from "../public/images/linkedin-icon4.png";
 export const Contact = () => {
   return (
-    <main
-      className="min-h-screen flex flex-col justify-center items-center "
-      id="Contact"
-    >
-      <section className="flex flex-col justify-center items-center">
+    <MainLayout title="Contact">
+      {/* // <main
+    //   className="min-h-screen flex flex-col justify-center items-center "
+    //   id="Contact"
+    // > */}
+      <section className="flex flex-col justify-center items-center mt-8">
         <form
           className="w-auto flex flex-col justify-center items-center space-y-3"
           target="_blank"
@@ -46,7 +50,13 @@ export const Contact = () => {
             Submit
           </button>
         </form>
+        <div>
+          <div className="flex gap-3">
+            {/* <Image src={linkedin4} width={30} alt="linkedin-icon" /> */}
+          </div>
+        </div>
       </section>
-    </main>
+    </MainLayout>
+    //  {/* </main> */}
   );
 };
