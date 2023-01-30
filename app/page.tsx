@@ -7,17 +7,13 @@ import papaya from "../public/images/papaya.svg";
 import mango from "../public/images/mango.svg";
 import leaves from "../public/images/leaves.svg";
 import blade from "../public/images/blade.svg";
-import linkedin from "../public/images/linkedin-icon.png";
-import linkedin2 from "../public/images/linkedin-icon2.png";
 import linkedin4 from "../public/images/linkedin-icon4.png";
-import github from "../public/images/github-icon.png";
 import github2 from "../public/images/github-icon2.png";
 import papayaSeedLower from "../public/images/papaya-seed-lower.svg";
 import papayaSeedHigher from "../public/images/papaya-seed-higher.svg";
 import papayaSeed from "../public/images/papayaSeed.svg";
 import mangoSeedGreenish from "../public/images/mango-seed-greenish.svg";
 import reddishSeed from "../public/images/reddishSeed.svg";
-import Link from "next/link";
 
 const resumeLink =
   "https://docs.google.com/document/d/1UVMpDh66Ryz5IuGTqL4s3aROveyd9UILzqyFgAcNYJg/edit?usp=sharing";
@@ -39,7 +35,7 @@ export default function Home() {
           alt="papaya seed"
           className="absolute top-60 right-0 pr-3 animate-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
         />
-        <div className="w-full h-1/4 flex justify-between relative pb-5 px-5">
+        <div className="w-full h-[22%] flex justify-between relative pb-5 px-5">
           <Image
             src={papaya}
             alt="papaya-art"
@@ -102,7 +98,7 @@ export default function Home() {
           alt="greenish-seed"
           className="absolute bottom-14 left-[110px] md:left-96 pl-3 animate-secondSeed-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
         />
-        <div className="w-full h-1/4 flex justify-between items-end relative pb-5 px-5">
+        <div className="w-full h-[22%] flex justify-between items-end relative pb-5 px-5">
           <Image
             src={mango}
             className="w-[28%] h-full animate-mango-enter"
