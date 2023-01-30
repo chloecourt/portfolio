@@ -6,9 +6,8 @@ export const Navbar = () => {
     <>
       <nav
         aria-label="Site Nav"
-        className="z-20 h-[10vh] mx-auto flex w-screen justify-center items-center p-2 sticky top-0"
+        className="z-20 h-[10vh] mx-auto flex w-screen justify-center p-0 items-center sticky top-0"
       >
-        <span></span>
         <ul className="flex items-center gap-2 text-base font-medium text-gray-600">
           <li className="hidden md:block md:rounded-lg md:px-3 md:py-2">
             <a className=" hidden md:block md:rounded-lg" href="/">
