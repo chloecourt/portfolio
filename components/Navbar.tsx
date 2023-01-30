@@ -10,7 +10,7 @@ export const Navbar = () => {
       >
         <span></span>
         <ul className="flex items-center gap-2 text-base font-medium text-gray-600">
-          <li className="hidden md:block md:rounded-lg md:px-3 md:py-2">
+          <li className="hidden md:block md:rounded-lg md:px-2 md:py-3">
             <a className=" hidden md:block md:rounded-lg" href="/">
               Home
             </a>
