@@ -11,9 +11,12 @@ import linkedin from "../public/images/linkedin-icon.png";
 import linkedin2 from "../public/images/linkedin-icon2.png";
 import linkedin4 from "../public/images/linkedin-icon4.png";
 import github from "../public/images/github-icon.png";
+import github2 from "../public/images/github-icon2.png";
 import papayaSeedLower from "../public/images/papaya-seed-lower.svg";
 import papayaSeedHigher from "../public/images/papaya-seed-higher.svg";
+import papayaSeed from "../public/images/papayaSeed.svg";
 import mangoSeedGreenish from "../public/images/mango-seed-greenish.svg";
+import reddishSeed from "../public/images/reddishSeed.svg";
 import Link from "next/link";
 
 const resumeLink =
@@ -29,13 +32,13 @@ export default function Home() {
       >
         <Image
           src={papayaSeedHigher}
-          alt="papaya-seed-higher"
-          className="absolute top-40 right-2 pr-3"
+          alt="blade seed"
+          className="absolute top-80 left-1 pl-3 animate-bounce delay-150"
         />
         <Image
-          src={papayaSeedHigher}
-          alt="papaya-seed-higher"
-          className="absolute top-72 left-2 pl-3"
+          src={papayaSeed}
+          alt="papaya seed"
+          className="absolute top-60 right-0 pr-3 animate-bounce delay-300"
         />
         <div className="w-full h-1/4 flex justify-between relative pb-5 px-5">
           <Image
@@ -46,27 +49,15 @@ export default function Home() {
           <span data-testid="jumping-seeds-span" className="mt-5">
             <Image
               src={papayaSeedHigher}
-              alt="papaya-seed-higher"
+              alt="light-brown middle bouncing seed"
               className="animate-bounce ml-3 pl-3"
             />
             <Image
               src={papayaSeedLower}
-              alt="papaya-seed-lower"
+              alt="slate-colored middle bouncing seed"
               className="animate-secondSeed-bounce mr-3 pr-3"
             />
           </span>
-          {/* <span className="hidden md:block">
-            <Image
-              src={papayaSeedHigher}
-              alt="papaya-seed-higher"
-              className="animate-bounce pr-6"
-            />
-            <Image
-              src={papayaSeedLower}
-              alt="papaya-seed-lower"
-              className="animate-secondSeed-bounce pr-6"
-            />
-          </span> */}
           <Image
             src={blade}
             alt="blade-art"
@@ -102,22 +93,15 @@ export default function Home() {
             alt="Chloe Courtois"
           />
         </section>
-
-        {/* <Image
-          src={mangoSeedGreenish}
-          alt="greenish-seed"
-          //right-[400px]
-          className="absolute bottom-24 left-[150px]"
-        /> */}
         <Image
-          src={mangoSeedGreenish}
+          src={reddishSeed}
           alt="greenish-seed"
-          className="absolute bottom-60 right-8 pl-3"
+          className="absolute bottom-60 right-8 pl-3 animate-bounce"
         />
         <Image
           src={mangoSeedGreenish}
           alt="greenish-seed"
-          className="absolute bottom-14 left-[110px] pl-3"
+          className="absolute bottom-14 left-[110px] pl-3 animate-bounce delay-75"
         />
         <div className="w-full h-1/4 flex justify-between items-end relative pb-5 px-5">
           <Image
@@ -138,7 +122,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <Image src={github} width={30} alt="github-icon" />
+              <Image src={github2} width={30} alt="github-icon" />
             </a>
           </div>
           <Image
