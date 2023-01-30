@@ -27,18 +27,17 @@ export default function Home() {
     <>
       <main
         className="relative h-[90vh] w-[100vw]
-        flex flex-col justify-start items-center 
-        hover:bg-yellow-200 transition-colors duration-500 delay-1000"
+        flex flex-col justify-start items-center"
       >
         <Image
           src={papayaSeedHigher}
           alt="blade seed"
-          className="absolute top-80 left-1 pl-3 animate-bounce delay-150"
+          className="absolute top-80 left-1 pl-3 animate-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
         />
         <Image
           src={papayaSeed}
           alt="papaya seed"
-          className="absolute top-60 right-0 pr-3 animate-bounce delay-300"
+          className="absolute top-60 right-0 pr-3 animate-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
         />
         <div className="w-full h-1/4 flex justify-between relative pb-5 px-5">
           <Image
@@ -50,18 +49,18 @@ export default function Home() {
             <Image
               src={papayaSeedHigher}
               alt="light-brown middle bouncing seed"
-              className="animate-bounce ml-3 pl-3"
+              className="animate-bounce delay-300 ml-3 pl-3 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
             />
             <Image
               src={papayaSeedLower}
               alt="slate-colored middle bouncing seed"
-              className="animate-secondSeed-bounce mr-3 pr-3"
+              className="animate-secondSeed-bounce delay-300 mr-3 pr-3 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
             />
           </span>
           <Image
             src={blade}
             alt="blade-art"
-            className="w-1/4 h-full animate-mango-enter"
+            className="w-[20%] h-full animate-mango-enter"
           />
         </div>
         <section
@@ -89,27 +88,27 @@ export default function Home() {
           </div>
           <Image
             src={selfie}
-            className="z-10 animate-roll-in rounded-full w-40 sm:w-60 md:w-72 md:mt-0"
+            className="z-10 animate-roll-in delay-500 rounded-full w-40 sm:w-60 md:w-72 md:mt-0"
             alt="Chloe Courtois"
           />
         </section>
         <Image
           src={reddishSeed}
           alt="greenish-seed"
-          className="absolute bottom-60 right-8 pl-3 animate-bounce"
+          className="absolute bottom-60 right-8 pl-3 animate-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
         />
         <Image
           src={mangoSeedGreenish}
           alt="greenish-seed"
-          className="absolute bottom-14 left-[110px] pl-3 animate-bounce delay-75"
+          className="absolute bottom-14 left-[110px] md:left-96 pl-3 animate-secondSeed-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
         />
         <div className="w-full h-1/4 flex justify-between items-end relative pb-5 px-5">
           <Image
             src={mango}
-            className="w-1/4 h-full animate-mango-enter"
+            className="w-[28%] h-full animate-mango-enter"
             alt="mango art"
           />
-          <div data-testid="social-media-icons" className="flex gap-3">
+          <div data-testid="social-media-icons" className="flex gap-3 mb-3">
             <a
               target="_blank"
               rel="noreferrer"
@@ -127,7 +126,7 @@ export default function Home() {
           </div>
           <Image
             src={leaves}
-            className="w-1/4 h-full animate-waving-hand"
+            className="w-[30%] h-full animate-waving-hand"
             alt="leaves art"
           />
         </div>

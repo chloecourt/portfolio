@@ -6,10 +6,6 @@ export const Contact = () => {
   return (
     <>
       <MainLayout title="Contact">
-        {/* // <main
-    //   className="min-h-screen flex flex-col justify-center items-center "
-    //   id="Contact"
-    // > */}
         <section className="flex flex-col justify-center items-center mt-8">
           <form
             className="w-auto flex flex-col justify-center items-center space-y-3"

@@ -3,7 +3,7 @@ import frontend from "../../public/hericons/frontend.svg";
 export const Skills = () => {
   return (
     <MainLayout title="Skills">
-      <section className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <section className="mt-8 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
         <article>
           <ul className="w-64 h-64 bg-gray-500 relative rounded-lg shadow-lg text-white px-8 py-6 list-disc tracking-widest">
             <li className="flex justify-center items-center">

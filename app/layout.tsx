@@ -12,7 +12,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.className} scroll-smooth bg-[#e7dfd5] hover:bg-yellow-200 transition-colors duration-500 delay-1000`}
+      className={`${inter.className} scroll-smooth bg-[#e7dfd5] `}
     >
       {/*
         <head /> will contain the components returned by the nearest parent
