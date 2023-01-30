@@ -13,6 +13,8 @@ import linkedin4 from "../public/images/linkedin-icon4.png";
 import github from "../public/images/github-icon.png";
 import papayaSeedLower from "../public/images/papaya-seed-lower.svg";
 import papayaSeedHigher from "../public/images/papaya-seed-higher.svg";
+import mangoSeedGreenish from "../public/images/mango-seed-greenish.svg";
+import Link from "next/link";
 
 const resumeLink =
   "https://docs.google.com/document/d/1UVMpDh66Ryz5IuGTqL4s3aROveyd9UILzqyFgAcNYJg/edit?usp=sharing";
@@ -25,24 +27,46 @@ export default function Home() {
         flex flex-col justify-start items-center 
         hover:bg-yellow-200 transition-colors duration-500 delay-1000"
       >
+        <Image
+          src={papayaSeedHigher}
+          alt="papaya-seed-higher"
+          className="absolute top-40 right-2 pr-3"
+        />
+        <Image
+          src={papayaSeedHigher}
+          alt="papaya-seed-higher"
+          className="absolute top-72 left-2 pl-3"
+        />
         <div className="w-full h-1/4 flex justify-between relative pb-5 px-5">
           <Image
             src={papaya}
             alt="papaya-art"
             className="w-1/4 h-full animate-fruits-down"
           />
-          <span>
+          <span data-testid="jumping-seeds-span" className="mt-5">
             <Image
               src={papayaSeedHigher}
               alt="papaya-seed-higher"
-              className="animate-bounce"
+              className="animate-bounce ml-3 pl-3"
             />
             <Image
               src={papayaSeedLower}
               alt="papaya-seed-lower"
-              className="animate-secondSeed-bounce"
+              className="animate-secondSeed-bounce mr-3 pr-3"
             />
           </span>
+          {/* <span className="hidden md:block">
+            <Image
+              src={papayaSeedHigher}
+              alt="papaya-seed-higher"
+              className="animate-bounce pr-6"
+            />
+            <Image
+              src={papayaSeedLower}
+              alt="papaya-seed-lower"
+              className="animate-secondSeed-bounce pr-6"
+            />
+          </span> */}
           <Image
             src={blade}
             alt="blade-art"
@@ -79,15 +103,43 @@ export default function Home() {
           />
         </section>
 
+        {/* <Image
+          src={mangoSeedGreenish}
+          alt="greenish-seed"
+          //right-[400px]
+          className="absolute bottom-24 left-[150px]"
+        /> */}
+        <Image
+          src={mangoSeedGreenish}
+          alt="greenish-seed"
+          className="absolute bottom-60 right-8 pl-3"
+        />
+        <Image
+          src={mangoSeedGreenish}
+          alt="greenish-seed"
+          className="absolute bottom-14 left-[110px] pl-3"
+        />
         <div className="w-full h-1/4 flex justify-between items-end relative pb-5 px-5">
           <Image
             src={mango}
             className="w-1/4 h-full animate-mango-enter"
             alt="mango art"
           />
-          <div className="flex gap-3">
-            <Image src={linkedin4} width={30} alt="linkedin-icon" />
-            <Image src={github} width={30} alt="github-icon" />
+          <div data-testid="social-media-icons" className="flex gap-3">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/chloe-courtois/"
+            >
+              <Image src={linkedin4} width={30} alt="linkedin-icon" />
+            </a>
+            <a
+              href="https://github.com/chloecourt"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image src={github} width={30} alt="github-icon" />
+            </a>
           </div>
           <Image
             src={leaves}
