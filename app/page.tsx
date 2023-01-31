@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <main
         className="relative h-[90vh] w-[100vw]
-        flex flex-col justify-start items-center"
+        flex flex-col justify-start items-center overflow-hidden"
       >
         <Image
           src={papayaSeedHigher}
