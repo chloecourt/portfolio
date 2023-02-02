@@ -15,7 +15,7 @@ export const ResumeButton = ({ href }: ResumeButton) => {
         "
         ></span>
 
-        <span className="relative block border border-current bg-white px-8 py-3">
+        <span className="relative block border border-current bg-white px-6 py-2 sm:px-8 sm:py-3">
           RESUME
         </span>
       </a>
