@@ -77,7 +77,7 @@ export default function Home() {
         >
           <div
             data-testid="white-personal-info-box"
-            className="relative z-10 w-full max-w-sm p-6 bg-white rounded-lg shadow-xl space-y-2 flex flex-col justify-center items-center lg:mb-0 lg:mr-20"
+            className="relative z-10 w-full max-w-sm p-6 bg-white rounded-lg shadow-xl space-y-2 flex flex-col mb-3 justify-center items-center lg:mb-0 lg:mr-20"
           >
             <h3 className=" text-base md:text-lg text-center">
               Software Engineer
