@@ -55,7 +55,7 @@ export const Contact = () => {
       </MainLayout>
       <div
         data-testid="social-media-icons"
-        className="w-full bottom-0 justify-center items-start mb-10 flex gap-3"
+        className="w-full bg-transparent bottom-0 justify-center items-start mb-10 flex mt-10 gap-3"
       >
         <a
           target="_blank"

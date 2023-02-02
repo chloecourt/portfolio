@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <main
-        className="relative h-[95vh] w-[100vw]
+        className="relative h-[88vh] w-[100vw]
         flex flex-col justify-start items-center overflow-hidden"
       >
         <Image
