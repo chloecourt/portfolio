@@ -42,7 +42,7 @@ export default function Home() {
           alt="papaya seed"
           className="absolute top-60 right-0 pr-3 animate-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
         />
-        <div className="w-full h-[22%] flex justify-between relative pb-4 px-4">
+        <div className="w-full h-[22%] flex justify-between relative px-4">
           <Image
             // src={papaya}
             src={shrub}
@@ -73,7 +73,7 @@ export default function Home() {
         <section
           id="About"
           data-testid="name-and-description-block"
-          className="bg-transparent flex-1 h-1/2 flex flex-col justify-evenly items-center lg:flex-row lg:justify-between"
+          className="bg-transparent flex-1 h-[40%] flex flex-col justify-evenly items-center lg:flex-row lg:justify-between"
         >
           <div
             data-testid="white-personal-info-box"
@@ -111,7 +111,7 @@ export default function Home() {
           alt="greenish-seed"
           className="absolute bottom-14 left-[110px] md:left-96 pl-3 animate-secondSeed-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
         />
-        <div className="w-full h-[22%] flex justify-between items-end relative pb-4 px-4">
+        <div className="w-full h-[22%] flex justify-between items-center relative pb-4 px-4">
           <Image
             // src={mango}
             src={yellowFlowers}
