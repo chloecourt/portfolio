@@ -6,7 +6,7 @@ export const Navbar = () => {
     <>
       <nav
         aria-label="Site Nav"
-        className="z-20 max-h-[10vh] mx-auto flex w-screen justify-center p-0 items-center sticky top-0"
+        className="z-20 max-h-[10vh] mx-auto flex w-screen justify-center pt-2 items-center sticky top-0"
       >
         <ul className="flex items-center gap-2 text-base font-medium text-gray-600 p-2">
           <li className="hidden md:block md:rounded-lg md:px-3 md:py-2">
