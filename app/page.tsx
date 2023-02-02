@@ -73,7 +73,7 @@ export default function Home() {
         <section
           id="About"
           data-testid="name-and-description-block"
-          className="bg-transparent flex-1 h-[40%] flex flex-col justify-between items-center lg:flex-row lg:justify-between"
+          className="bg-transparent flex-1 h-1/2 flex flex-col justify-between items-center lg:flex-row lg:justify-between"
         >
           <div
             data-testid="white-personal-info-box"
