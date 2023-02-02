@@ -49,15 +49,13 @@ export const Contact = () => {
             </button>
           </form>
           <div>
-            <div className="flex gap-3">
-              {/* <Image src={linkedin4} width={30} alt="linkedin-icon" /> */}
-            </div>
+            <div className="flex gap-3"></div>
           </div>
         </section>
       </MainLayout>
       <div
         data-testid="social-media-icons"
-        className="w-full bottom-0 justify-center my-5 items-center flex gap-3"
+        className="w-full bottom-0 justify-center items-start mb-10 flex gap-3"
       >
         <a
           target="_blank"
