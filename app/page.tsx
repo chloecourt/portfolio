@@ -140,7 +140,7 @@ export default function Home() {
           <Image
             // src={leaves}
             src={threeLeaves}
-            className="w-1/4 h-full animate-waving-hand"
+            className="w-1/4 h-full animate-waving-hand delay-500"
             alt="leaves art"
           />
         </div>
