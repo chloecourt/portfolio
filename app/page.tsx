@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { ResumeButton } from "@/components/ResumeButton";
 import selfie from "../public/images/selfie.jpeg";
+import selfie2 from "../public/images/selfie2.png";
 import { Projects, Contact, Skills } from "../components/Mains";
 import papaya from "../public/images/papaya.svg";
 import mango from "../public/images/mango.svg";
@@ -73,11 +74,11 @@ export default function Home() {
         <section
           id="About"
           data-testid="name-and-description-block"
-          className="bg-transparent flex-1 h-1/2 flex flex-col justify-between items-center lg:flex-row lg:justify-between"
+          className="bg-transparent flex-1 h-1/2 flex flex-col justify-evenly items-center lg:flex-row lg:justify-between"
         >
           <div
             data-testid="white-personal-info-box"
-            className="relative z-10 w-full max-w-sm p-6 bg-white rounded-lg shadow-xl space-y-2 flex flex-col mb-3 justify-center items-center lg:mb-0 lg:mr-20"
+            className="relative z-10 w-full max-w-sm p-6 bg-white rounded-lg shadow-xl flex flex-col mb-3 justify-center items-center lg:mb-0 lg:mr-20"
           >
             <h3 className=" text-base md:text-lg text-center">
               Software Engineer
@@ -85,16 +86,15 @@ export default function Home() {
             <h1 className="font-abc bold text-4xl sm:text-5xl lg:text-6xl text-center hover:-translate-y-1 ease-in duration-200">
               Chloe Courtois
             </h1>
-
-            <p className="items-center px-4 mb-3 max-w-sm hidden md:block">
-              Hello! Thank you for visiting my site, I built it with Next.js 13
-              and Tailwind CSS. I love learning the newest technology and
-              providing cutting edge products to clients.
+            <p className="items-center p-2 mb-3 max-w-sm hidden md:block">
+              Hello! Thank you for visiting my site.
+              <br></br>I built it with Next.js 13, Tailwind CSS and created the
+              artwork with Figma.
             </p>
             <ResumeButton href={resumeLink} />
           </div>
           <Image
-            src={selfie}
+            src={selfie2}
             className="z-10 hover:animate-roll-in rounded-full w-40 sm:w-60 md:w-72 md:mt-0"
             alt="Chloe Courtois"
           />
