@@ -30,6 +30,7 @@ export default function Home() {
       <main
         className="relative h-[88vh] w-[100vw]
         flex flex-col justify-start items-center overflow-hidden"
+        id="Home"
       >
         <Image
           // src={papayaSeedHigher}
