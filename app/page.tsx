@@ -1,20 +1,10 @@
 import Image from "next/image";
 
 import { ResumeButton } from "@/components/ResumeButton";
-import selfie from "../public/images/selfie.jpeg";
 import selfie2 from "../public/images/selfie2.png";
 import { Projects, Contact, Skills } from "../components/Mains";
-import papaya from "../public/images/papaya.svg";
-import mango from "../public/images/mango.svg";
-import leaves from "../public/images/leaves.svg";
-import blade from "../public/images/blade.svg";
 import linkedin4 from "../public/images/linkedin-icon4.png";
 import github2 from "../public/images/github-icon2.png";
-import papayaSeedLower from "../public/images/papaya-seed-lower.svg";
-import papayaSeedHigher from "../public/images/papaya-seed-higher.svg";
-import papayaSeed from "../public/images/papayaSeed.svg";
-import mangoSeedGreenish from "../public/images/mango-seed-greenish.svg";
-import reddishSeed from "../public/images/reddishSeed.svg";
 import bee from "../public/images/bee.svg";
 import shrub from "../public/images/shrub.svg";
 import threeLeaves from "../public/images/threeLeaves.svg";
