@@ -79,12 +79,13 @@ export default function Home() {
         >
           <div
             data-testid="white-personal-info-box"
-            className="relative z-10 w-full max-w-sm p-6 bg-white rounded-lg shadow-xl flex flex-col mb-3 justify-center items-center lg:mb-0 lg:mr-20"
+            className="relative z-10 w-full max-w-sm p-6  flex flex-col mb-3 justify-center items-center lg:mb-0 lg:mr-20"
+            //bg-white rounded-lg shadow-xl
           >
             <h3 className=" text-base md:text-lg text-center">
               Software Engineer
             </h3>
-            <h1 className="font-abc bold text-4xl sm:text-5xl lg:text-6xl text-center hover:-translate-y-1 ease-in duration-200">
+            <h1 className="font-abc py-1 bold text-4xl sm:text-5xl lg:text-6xl text-center hover:-translate-y-1 ease-in duration-200">
               Chloe Courtois
             </h1>
             <p className="items-center p-2 mb-3 max-w-sm hidden md:block">
@@ -96,7 +97,7 @@ export default function Home() {
           </div>
           <Image
             src={selfie2}
-            className="z-10 hover:animate-roll-in rounded-full w-40 sm:w-60 md:w-72 md:mt-0"
+            className="z-10 hover:animate-roll-in rounded-full w-48 sm:w-60 lg:w-72 md:mt-0"
             alt="Chloe Courtois"
           />
         </section>
