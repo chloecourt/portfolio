@@ -23,40 +23,34 @@ export default function Home() {
         id="Home"
       >
         <Image
-          // src={papayaSeedHigher}
           src={bee}
-          alt="blade seed"
-          className="absolute top-80 left-1 pl-3 animate-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
+          alt="bee"
+          className="absolute top-80 left-1 pl-3 animate-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-10"
         />
         <Image
-          // src={papayaSeed}
           src={bee}
           alt="papaya seed"
-          className="absolute top-60 right-0 pr-3 animate-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
+          className="absolute top-60 right-0 pr-3 animate-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-10"
         />
         <div className="w-full h-1/4 flex justify-between items-start relative px-4">
           <Image
-            // src={papaya}
             src={shrub}
             alt="papaya-art"
             className="w-1/4 h-full animate-fruits-down object-contain"
           />
           <span data-testid="jumping-seeds-span" className="mt-5">
             <Image
-              // src={papayaSeedHigher}
               src={bee}
-              alt="light-brown middle bouncing seed"
-              className="animate-bounce delay-300 ml-3 pl-3 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
+              alt="bee"
+              className="animate-bounce delay-300 ml-3 pl-3 w-8 h-4 md:w-10 md:h-6 lg:w-10"
             />
             <Image
-              // src={papayaSeedLower}
               src={bee}
-              alt="slate-colored middle bouncing seed"
-              className="animate-secondSeed-bounce delay-300 mr-3 pr-3 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
+              alt="bee image"
+              className="animate-secondSeed-bounce delay-300 mr-3 pr-3 w-8 h-4 md:w-10 md:h-6 lg:w-10"
             />
           </span>
           <Image
-            // src={blade}
             src={redFlowers}
             alt="blade-art"
             className="w-1/4 h-full animate-mango-enter"
@@ -72,13 +66,13 @@ export default function Home() {
             className="relative z-10 w-full max-w-sm p-6  flex flex-col mb-3 justify-center items-center lg:mb-0 lg:mr-20"
             //bg-white rounded-lg shadow-xl
           >
-            <h3 className=" text-base md:text-lg text-center">
+            <h3 className=" text-base text-zinc-800 md:text-lg text-center">
               Software Engineer
             </h3>
-            <h1 className="font-abc py-1 bold text-4xl sm:text-5xl lg:text-6xl text-center hover:-translate-y-1 ease-in duration-200">
+            <h1 className="font-abc py-1 bold text-stone-600 text-4xl sm:text-5xl lg:text-6xl text-center hover:-translate-y-1 ease-in duration-200">
               Chloe Courtois
             </h1>
-            <p className="items-center p-2 mb-3 max-w-sm hidden md:block">
+            <p className="items-center text-zinc-900 p-2 mb-3 max-w-sm hidden md:block">
               Hello! Thank you for visiting my site.
               <br></br>I built it with Next.js 13, Tailwind CSS and created the
               artwork with Figma.
@@ -92,27 +86,24 @@ export default function Home() {
           />
         </section>
         <Image
-          // src={reddishSeed}
           src={bee}
           alt="greenish-seed"
-          className="absolute bottom-60 right-8 pl-3 animate-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
+          className="absolute bottom-60 right-8 pl-3 animate-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-10"
         />
         <Image
-          // src={mangoSeedGreenish}
           src={bee}
-          alt="greenish-seed"
-          className="absolute bottom-14 left-[110px] md:left-96 pl-3 animate-secondSeed-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-12 lg:h-8"
+          alt="bee"
+          className="absolute bottom-14 left-[110px] md:left-96 pl-3 animate-secondSeed-bounce delay-300 w-8 h-4 md:w-10 md:h-6 lg:w-10"
         />
         <div className="w-full h-1/4 flex justify-between items-start relative pb-4 px-4">
           <Image
-            // src={mango}
             src={yellowFlowers}
             className="w-1/4 h-full animate-mango-enter"
-            alt="mango art"
+            alt="yellow flower"
           />
           <div
             data-testid="social-media-icons"
-            className="h-full flex items-center gap-3"
+            className="h-full flex items-end gap-3 sm:items-center"
           >
             <a
               target="_blank"
@@ -130,7 +121,6 @@ export default function Home() {
             </a>
           </div>
           <Image
-            // src={leaves}
             src={threeLeaves}
             className="w-1/4 h-full animate-waving-hand delay-500"
             alt="leaves art"

@@ -6,7 +6,7 @@ export const ProjectsContainer = ({ src }: ProjectContainerTypes) => {
   return (
     <article className="space-y-4 flex flex-col justify-evenly items-center md:space-x-3">
       <h2 className="bg-white rounded-lg shadow-xl text-center text-lg font-medium text-gray-600 px-5 py-3">
-        Boost Excel: Add-in to use SQL to Query Data
+        Boost Excel: Microsoft Excel Add-in for SQL Queries
       </h2>
       <WindowMockUp src={src} />
       <span className="mx-auto text-center block">TECH STACK</span>
