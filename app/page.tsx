@@ -69,7 +69,7 @@ export default function Home() {
             <h3 className=" text-base text-zinc-800 md:text-lg text-center">
               Software Engineer
             </h3>
-            <h1 className="font-abc py-1 bold text-stone-600 text-4xl sm:text-5xl lg:text-6xl text-center hover:-translate-y-1 ease-in duration-200">
+            <h1 className="font-abc py-1 bold text-zinc-800 text-4xl sm:text-5xl lg:text-6xl text-center hover:-translate-y-1 ease-in duration-200">
               Chloe Courtois
             </h1>
             <p className="items-center text-zinc-900 p-2 mb-3 max-w-sm hidden md:block">

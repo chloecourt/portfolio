@@ -73,6 +73,5 @@ export const Contact = () => {
         </a>
       </div>
     </>
-    //  {/* </main> */}
   );
 };
