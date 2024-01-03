@@ -80,7 +80,7 @@ export default function Home() {
           </div>
           <Image
             src={selfie2}
-            className="z-10 hover:animate-roll-in rounded-full w-44 lg:w-72 sm:w-60  md:mt-0"
+            className="z-10 hover:animate-roll-in rounded-full w-44 lg:w-70 sm:w-60  md:mt-0"
             alt="Chloe Courtois"
           />
         </section>
@@ -102,7 +102,7 @@ export default function Home() {
           />
           <div
             data-testid="social-media-icons"
-            className="h-full flex items-center gap-3 sm:items-center"
+            className="h-full flex items-center md:items-end lg:items-center gap-3 sm:items-center"
           >
             <a
               target="_blank"
